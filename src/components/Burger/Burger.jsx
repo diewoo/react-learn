@@ -3,7 +3,7 @@ import classes from './Burger.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient'
 const Burger = (props) => {
   return (
-    <div clasName={classes.Burger}>
+    <div className={classes.Burger}>
       <BurgerIngredient type="bread-top"/>
       <BurgerIngredient type="cheese"/>
       <BurgerIngredient type="meat"/>
